@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reserve a table at Taste of Freetown SL. Simple reservation requests for lunch, dinner or special gatherings.">
+  <title>Book a Table | Taste of Freetown SL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <span>FREETOWN, SIERRA LEONE</span>
+    <span>Calm flavours. Warm hospitality.</span>
+    <a href="booking.html">Reserve a table ↗</a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Taste of Freetown SL home">
+      <span class="brand-mark">TF</span>
+      <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="booking.html">Book a Table <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-wrap">
+      <div class="eyebrow"><span></span> YOUR TABLE IS WAITING</div>
+      <h1>Hungry? Let’s make it a date.</h1>
+      <p class="page-intro">Planning lunch, dinner, or a special gathering? Send us your details and we’ll help arrange your visit.</p>
+    </section>
+
+    <section class="booking section-wrap" style="padding-top:20px">
+      <div class="booking-copy">
+        <div class="booking-perk"><span>✓</span> Simple reservation request</div>
+        <div class="booking-perk"><span>✓</span> Perfect for friends and family</div>
+        <div class="booking-perk"><span>✓</span> Special requests welcome</div>
+        <p style="margin-top:28px;color:var(--muted);font-size:14px;line-height:1.7">We’ll get back to you as soon as we can to confirm availability. Looking forward to having you.</p>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <h3>Make a reservation</h3>
+        <p class="form-intro">Tell us a little about your visit.</p>
+        <label>Full name
+          <input name="name" autocomplete="name" required placeholder="Your full name">
+        </label>
+        <div class="form-row">
+          <label>Phone number
+            <input name="phone" type="tel" autocomplete="tel" required placeholder="+232 ...">
+          </label>
+          <label>Number of guests
+            <select name="guests" required>
+              <option value="">Select</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7+</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Date
+            <input name="date" type="date" required>
+          </label>
+          <label>Time
+            <input name="time" type="time" required>
+          </label>
+        </div>
+        <label>Special requests <span class="optional">(optional)</span>
+          <textarea name="requests" rows="3" placeholder="Celebration, seating preference, dish interest..."></textarea>
+        </label>
+        <button class="button button-dark full-width" type="submit">Request a table <span>↗</span></button>
+        <p class="form-note">This demo shows a confirmation on this page. Connect a booking service or email to receive real requests.</p>
+        <div class="form-status" id="booking-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section-wrap footer-top">
+      <a class="brand brand-light" href="index.html">
+        <span class="brand-mark">TF</span>
+        <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+      </a>
+      <p>Good food. Good people. A little taste of home.</p>
+      <a href="index.html" class="back-top">Back to home ↑</a>
+    </div>
+    <div class="section-wrap footer-bottom">
+      <span>© <span id="year"></span> Taste of Freetown SL</span>
+      <span>Made with care in Sierra Leone</span>
+      <div>
+        <a href="about.html">Our story</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html">Reservations</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

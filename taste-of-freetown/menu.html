@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Menu — Taste of Freetown SL. Cassava leaf, Vegetables, jollof, grilled fish and more.">
+  <title>Menu | Taste of Freetown SL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <span>FREETOWN, SIERRA LEONE</span>
+    <span>Calm flavours. Warm hospitality.</span>
+    <a href="booking.html">Reserve a table ↗</a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Taste of Freetown SL home">
+      <span class="brand-mark">TF</span>
+      <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="booking.html">Book a Table <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-wrap">
+      <div class="eyebrow"><span></span> MADE TO BE ENJOYED</div>
+      <h1>Our signature dishes<span class="accent">.</span></h1>
+      <p class="page-intro">Slow-cooked classics and fresh plates from the heart of Sierra Leone. Filter by category or ask about any dish when you book.</p>
+    </section>
+
+    <section class="menu-section" style="padding-top:0">
+      <div class="section-wrap">
+        <div class="filters" role="group" aria-label="Filter menu">
+          <button class="filter active" data-filter="all">All dishes</button>
+          <button class="filter" data-filter="sierra">Sierra Leonean</button>
+          <button class="filter" data-filter="international">International</button>
+          <button class="filter" data-filter="drinks">Drinks</button>
+        </div>
+
+        <div class="dish-grid" id="menu-grid">
+          <article class="dish-card" data-category="sierra">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1604329760661-e7ec4c0b5d8b?auto=format&fit=crop&w=700&q=80" alt="Cassava Leaf stew">
+              <span class="dish-tag">SIGNATURE</span>
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Cassava Leaf</h3>
+                <p>Rich, slow-cooked cassava leaf stew — a true taste of home.</p>
+              </div>
+              <strong>Le 120</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Cassava%20Leaf">Ask about this dish <span>↗</span></a>
+          </article>
+
+          <article class="dish-card" data-category="sierra">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80" alt="Grilled fish with sides">
+              <span class="dish-tag">CHEF'S PICK</span>
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Grilled Fish</h3>
+                <p>Seasoned, grilled, and served with fresh local sides.</p>
+              </div>
+              <strong>Le 150</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Grilled%20Fish">Ask about this dish <span>↗</span></a>
+          </article>
+
+          <article class="dish-card" data-category="sierra">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80" alt="Groundnut soup">
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Groundnut Soup</h3>
+                <p>Creamy peanut soup with tender meat — pure comfort.</p>
+              </div>
+              <strong>Le 110</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Groundnut%20Soup">Ask about this dish <span>↗</span></a>
+          </article>
+
+          <article class="dish-card" data-category="sierra">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?auto=format&fit=crop&w=700&q=80" alt="Jollof rice">
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Jollof Rice</h3>
+                <p>Fragrant, perfectly spiced rice cooked the Sierra Leone way.</p>
+              </div>
+              <strong>Le 90</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Jollof%20Rice">Ask about this dish <span>↗</span></a>
+          </article>
+
+          <article class="dish-card" data-category="international">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80" alt="Pasta with herbs">
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Pasta Alfredo</h3>
+                <p>Creamy pasta finished with herbs and parmesan.</p>
+              </div>
+              <strong>Le 120</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Pasta%20Alfredo">Ask about this dish <span>↗</span></a>
+          </article>
+
+          <article class="dish-card" data-category="drinks">
+            <div class="dish-image">
+              <img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=80" alt="Fresh fruit cooler">
+            </div>
+            <div class="dish-info">
+              <div>
+                <h3>Fresh Fruit Cooler</h3>
+                <p>Bright, refreshing local fruit blend for a sunny day.</p>
+              </div>
+              <strong>Le 45</strong>
+            </div>
+            <a class="add-button" href="booking.html?dish=Fresh%20Fruit%20Cooler">Ask about this dish <span>↗</span></a>
+          </article>
+        </div>
+        <p class="menu-disclaimer">Sample menu and prices for this design concept. Confirm your actual dishes and prices before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section-wrap footer-top">
+      <a class="brand brand-light" href="index.html">
+        <span class="brand-mark">TF</span>
+        <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+      </a>
+      <p>Good food. Good people. A little taste of home.</p>
+      <a href="index.html" class="back-top">Back to home ↑</a>
+    </div>
+    <div class="section-wrap footer-bottom">
+      <span>© <span id="year"></span> Taste of Freetown SL</span>
+      <span>Made with care in Sierra Leone</span>
+      <div>
+        <a href="about.html">Our story</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html">Reservations</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

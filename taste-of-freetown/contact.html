@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Taste of Freetown SL. Questions, celebrations, or just say hello.">
+  <title>Contact | Taste of Freetown SL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <span>FREETOWN, SIERRA LEONE</span>
+    <span>Calm flavours. Warm hospitality.</span>
+    <a href="booking.html">Reserve a table ↗</a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Taste of Freetown SL home">
+      <span class="brand-mark">TF</span>
+      <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a class="nav-cta" href="booking.html">Book a Table <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-wrap">
+      <div class="eyebrow"><span></span> LET’S TALK</div>
+      <h1>Get in touch<span class="accent">.</span></h1>
+      <p class="page-intro">Have a question, a celebration to plan, or just want to say hello? Send us a message — we’re happy to hear from you.</p>
+    </section>
+
+    <section class="contact-section" style="padding-top:20px">
+      <div class="section-wrap contact-grid">
+        <div>
+          <div class="contact-detail">
+            <span>⌖</span>
+            <div>
+              <b>Find us</b>
+              <p>Freetown, Sierra Leone<br><small>(Add your exact address before launch)</small></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span>✉</span>
+            <div>
+              <b>Email</b>
+              <p>hello@tasteoffreetown.sl<br><small>(Replace with your real email)</small></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span>◷</span>
+            <div>
+              <b>Opening hours</b>
+              <p>Add your confirmed opening hours here</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <h3>Send a message</h3>
+          <label>Name
+            <input name="name" required placeholder="Your name">
+          </label>
+          <label>Email
+            <input name="email" type="email" required placeholder="you@example.com">
+          </label>
+          <label>Message
+            <textarea name="message" rows="4" required placeholder="How can we help?"></textarea>
+          </label>
+          <button class="button button-dark" type="submit">Send message <span>↗</span></button>
+          <div class="form-status" id="contact-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section-wrap footer-top">
+      <a class="brand brand-light" href="index.html">
+        <span class="brand-mark">TF</span>
+        <span>TASTE OF <b>FREETOWN SL</b><small>LOCAL FLAVOUR · GOOD COMPANY</small></span>
+      </a>
+      <p>Good food. Good people. A little taste of home.</p>
+      <a href="index.html" class="back-top">Back to home ↑</a>
+    </div>
+    <div class="section-wrap footer-bottom">
+      <span>© <span id="year"></span> Taste of Freetown SL</span>
+      <span>Made with care in Sierra Leone</span>
+      <div>
+        <a href="about.html">Our story</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html">Reservations</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
